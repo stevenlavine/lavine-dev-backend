@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_titles_page_titles",
+  "info": {
+    "displayName": "pageTitle",
+    "icon": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "smallText": {
+      "type": "string"
+    },
+    "largeText": {
+      "type": "string"
+    }
+  }
+}

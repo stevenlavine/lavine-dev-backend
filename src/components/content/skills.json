@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_content_skills",
+  "info": {
+    "displayName": "skills",
+    "icon": "list-ul"
+  },
+  "options": {},
+  "attributes": {
+    "skill": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_content_about_mes",
+  "info": {
+    "displayName": "aboutMe",
+    "icon": "user-cog"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "biography": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "skills": {
+      "displayName": "skills",
+      "type": "component",
+      "repeatable": true,
+      "component": "content.skills"
+    }
+  }
+}
