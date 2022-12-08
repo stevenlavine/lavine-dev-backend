@@ -31,6 +31,12 @@
       "type": "component",
       "repeatable": false,
       "component": "content.about-me"
+    },
+    "work": {
+      "displayName": "work",
+      "type": "component",
+      "repeatable": false,
+      "component": "content.work"
     }
   }
 }
