@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_content_agencies",
+  "info": {
+    "displayName": "Agency",
+    "icon": "network-wired"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

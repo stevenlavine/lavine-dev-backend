@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_content_works",
+  "info": {
+    "displayName": "work",
+    "icon": "network-wired"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "richtext"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    }
+  }
+}

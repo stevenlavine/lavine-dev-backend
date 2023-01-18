@@ -2,7 +2,8 @@
   "collectionName": "components_content_about_mes",
   "info": {
     "displayName": "aboutMe",
-    "icon": "user-cog"
+    "icon": "user-cog",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,11 +14,12 @@
       "type": "richtext"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "skills": {
       "displayName": "skills",
